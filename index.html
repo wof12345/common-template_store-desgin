@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <title>Document</title>
+
+    <script defer src="./data.js"></script>
+    <script defer src="./index.js"></script>
+  </head>
+
+  <body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+
+    <nav class="nav">
+      <h5>NAV</h5>
+
+      <navitems class="nav__links">
+        <hovertoextend> Menu </hovertoextend>
+
+        <navitem class="nav__item">
+          <a class="nav__link" href="#">Home</a>
+        </navitem>
+        <navitem class="nav__item">
+          <a class="nav__link" href="#">Product</a>
+        </navitem>
+        <navitem class="nav__item">
+          <a class="nav__link" href="#">Review</a>
+        </navitem>
+        <navitem class="nav__item">
+          <button class="nav__link--btn">Contact</button>
+        </navitem>
+      </navitems>
+    </nav>
+
+    <main class="main_outer_container">
+      <h2>Featured</h2>
+      <section class="product_slide">
+        <div class="slide_left slide_btn">
+          <div class="slide_left_1"></div>
+        </div>
+
+        <div class="product_slider"></div>
+
+        <div class="slide_right slide_btn">
+          <div class="slide_right_1"></div>
+        </div>
+      </section>
+
+      <h4>Our products</h4>
+      <section class="product_cart">
+        <div class="product_display d-flex justify-content-between"></div>
+        <div class="cart_details d-flex flex-column">
+          <h1>My cart</h1>
+          <div class="totprod cost_detail">
+            Total Product :
+            <p class="costs">0</p>
+          </div>
+          <div class="price cost_detail">
+            Price :
+            <p class="costs">0</p>
+          </div>
+          <div class="delivery cost_detail">
+            Delivery
+            <p class="costs">0</p>
+          </div>
+          <div class="shipping cost_detail">
+            Shipping :
+            <p class="costs">0</p>
+          </div>
+          <div class="totprice cost_detail">
+            Total price :
+            <p class="costs">0</p>
+          </div>
+          <div class="tax cost_detail">
+            Tax :
+            <p class="costs">0</p>
+          </div>
+          <div class="tottax cost_detail">
+            Total Price with Tax
+            <p class="costs">0</p>
+          </div>
+
+          <button class="btn btn-primary">Check out</button>
+        </div>
+      </section>
+
+      <h3>Upcoming</h3>
+      <section
+        class="upcoming_products d-flex justify-content-around"
+      ></section>
+
+      <h6>Reviews</h6>
+      <section class="product-reviews">
+        <div class="product_slider02 d-flex"></div>
+      </section>
+
+      <footer class="bg-dark"></footer>
+    </main>
+  </body>
+</html>
