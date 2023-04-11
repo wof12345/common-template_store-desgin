@@ -29,42 +29,42 @@ let product_prefab = function (data, placement, position, type) {
 
 let products = [
   {
-    id: "000",
+    id: "1",
     name: "saddoge",
     price: "20?",
     stock: "Infinite",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores nihil vel ab similique iure? Quos sequi, sint et ipsa dicta provident suscipit fugit nobis quidem. Incidunt libero nobis distinctio eveniet.  ",
   },
   {
-    id: "000",
+    id: "2",
     name: "saddoge",
     price: "20?",
     stock: "Infinite",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores nihil vel ab similique iure? Quos sequi, sint et ipsa dicta provident suscipit fugit nobis quidem. Incidunt libero nobis distinctio eveniet.  ",
   },
   {
-    id: "000",
+    id: "3",
     name: "saddoge",
     price: "20?",
     stock: "Infinite",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores nihil vel ab similique iure? Quos sequi, sint et ipsa dicta provident suscipit fugit nobis quidem. Incidunt libero nobis distinctio eveniet.  ",
   },
   {
-    id: "000",
+    id: "4",
     name: "saddoge",
     price: "20?",
     stock: "Infinite",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores nihil vel ab similique iure? Quos sequi, sint et ipsa dicta provident suscipit fugit nobis quidem. Incidunt libero nobis distinctio eveniet.  ",
   },
   {
-    id: "000",
+    id: "5",
     name: "saddoge",
     price: "20?",
     stock: "Infinite",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores nihil vel ab similique iure? Quos sequi, sint et ipsa dicta provident suscipit fugit nobis quidem. Incidunt libero nobis distinctio eveniet.  ",
   },
   {
-    id: "000",
+    id: "6",
     name: "saddoge",
     price: "20?",
     stock: "Infinite",
@@ -73,14 +73,28 @@ let products = [
 ];
 let featured = [
   {
-    id: "000",
+    id: "0",
     name: "saddoge",
     price: "20?",
     stock: "Infinite",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores nihil vel ab similique iure? Quos sequi, sint et ipsa dicta provident suscipit fugit nobis quidem. Incidunt libero nobis distinctio eveniet.  ",
   },
   {
-    id: "000",
+    id: "1",
+    name: "saddoge",
+    price: "20?",
+    stock: "Infinite",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores nihil vel ab similique iure? Quos sequi, sint et ipsa dicta provident suscipit fugit nobis quidem. Incidunt libero nobis distinctio eveniet.  ",
+  },
+  {
+    id: "2",
+    name: "saddoge",
+    price: "20?",
+    stock: "Infinite",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores nihil vel ab similique iure? Quos sequi, sint et ipsa dicta provident suscipit fugit nobis quidem. Incidunt libero nobis distinctio eveniet.  ",
+  },
+  {
+    id: "3",
     name: "saddoge",
     price: "20?",
     stock: "Infinite",
@@ -89,31 +103,31 @@ let featured = [
 ];
 let upcoming = [
   {
-    id: "000",
+    id: "1",
     name: "saddoge",
     price: "20?",
-    stock: "Infinite",
+    stock: "None yet",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores nihil vel ab similique iure? Quos sequi, sint et ipsa dicta provident suscipit fugit nobis quidem. Incidunt libero nobis distinctio eveniet.  ",
   },
   {
-    id: "000",
+    id: "2",
     name: "saddoge",
     price: "20?",
-    stock: "Infinite",
+    stock: "None yet",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores nihil vel ab similique iure? Quos sequi, sint et ipsa dicta provident suscipit fugit nobis quidem. Incidunt libero nobis distinctio eveniet.  ",
   },
   {
-    id: "000",
+    id: "3",
     name: "saddoge",
     price: "20?",
-    stock: "Infinite",
+    stock: "None yet",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores nihil vel ab similique iure? Quos sequi, sint et ipsa dicta provident suscipit fugit nobis quidem. Incidunt libero nobis distinctio eveniet.  ",
   },
   {
-    id: "000",
+    id: "4",
     name: "saddoge",
     price: "20?",
-    stock: "Infinite",
+    stock: "None yet",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores nihil vel ab similique iure? Quos sequi, sint et ipsa dicta provident suscipit fugit nobis quidem. Incidunt libero nobis distinctio eveniet.  ",
   },
 ];

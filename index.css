@@ -335,6 +335,25 @@ hovertoextend:hover {
   justify-content: space-between;
 }
 
+.page_no {
+  height: 20px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.circle {
+  background-color: white;
+  width: 8px;
+  aspect-ratio: 1/1;
+  border-radius: 5px;
+}
+.circle:hover {
+  background-color: rgba(102, 102, 102, 0.897);
+  cursor: pointer;
+}
+
 ::-webkit-scrollbar {
   width: 10px;
 }
